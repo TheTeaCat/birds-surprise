@@ -33,7 +33,9 @@ while i < len(target_sequence):
             best_bird_name = (bird_name_score, bird_name)
 
     if best_bird_name == (0, ""):
-        breakpoint()
+        raise Exception(
+            "It wasn't possible to encode the remainder of your message with the bird names provided.",
+        )
 
     print(
         f"{'-'*i}{''.join(target_substring[: best_bird_name[0]])}{'-'*(len(target_sequence)-i-best_bird_name[0])}: {best_bird_name[1]}"
