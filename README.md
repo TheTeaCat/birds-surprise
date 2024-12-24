@@ -38,25 +38,21 @@ cd birds-surprise
 Next, extract all of the bird names from [Wikipedia's Spanish Birds page](https://en.wikipedia.org/wiki/List_of_birds_of_Spain#Ducks,_geese,_and_waterfowl) by running the following javascript snippet in the developer tools of your browser:
 
 ```javascript
-let tmpInput = document.createElement("textarea")
-tmpInput.value = (
-    Array.from(
-        document.getElementsByClassName("div-col")
-    ).map(
-        divcol => divcol.children[0]
-    ).map(
-        ul => Array.from(
-            ul.children
-        ).map(
-            li => li.children[0].innerText
-        ).join("\n")
-    ).join("\n")
-)
-tmpInput.select()
-setTimeout(()=>{
-    navigator.clipboard.writeText(tmpInput.value)
-    console.log(`Copied to the clipboard: ${tmpInput.value}`)
-}, 3000)
+let tmpInput = document.createElement("textarea");
+tmpInput.value =
+  Array.from(document.getElementsByClassName("div-col"))
+    .map((divcol) => divcol.children[0])
+    .map((ul) =>
+      Array.from(ul.children)
+        .map((li) => li.children[0].innerText)
+        .join(",\n")
+    )
+    .join(",\n") + ",";
+tmpInput.select();
+setTimeout(() => {
+  navigator.clipboard.writeText(tmpInput.value);
+  console.log(`Copied to the clipboard: ${tmpInput.value}`);
+}, 3000);
 ```
 
 You then need to focus on the webpage within 3 seconds so the `navigator.clipboard.writeText` call doesn't fail.
