@@ -34,7 +34,7 @@ while i < len(target_sequence):
 
     if best_bird_name == (0, ""):
         raise Exception(
-            "It wasn't possible to encode the remainder of your message with the bird names provided.",
+            f"It wasn't possible to encode the remainder of your message; none of the provided bird names contain the letter '{target_sequence[i]}'",
         )
 
     print(
