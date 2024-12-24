@@ -14,7 +14,7 @@ git clone git@github.com/theteacat/birds-surprise
 cd birds-surprise
 ```
 
-Next, extract all of the bird names from Wikipedia's Spanish Birds page running the following javascript snippet in the developer tools of your browser:
+Next, extract all of the bird names from [Wikipedia's Spanish Birds page](https://en.wikipedia.org/wiki/List_of_birds_of_Spain#Ducks,_geese,_and_waterfowl) running the following javascript snippet in the developer tools of your browser:
 
 ```javascript
 let tmpInput = document.createElement("textarea")
