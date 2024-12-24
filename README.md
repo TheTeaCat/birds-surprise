@@ -55,7 +55,7 @@ This will ask you for a target message. If you don't have one in mind yet, there
 ## Example Output
 
 ```
-Target Message (I'm enjoying looking at all the bird pictures, but i will post it soon): 
+Target Message (I'm enjoying looking at all the bird pictures, but I will post it soon.): 
 Target Sequence: IMENJOYINGLOOKINGATALLTHEBIRDPICTURESBUTIWILLPOSTITSOON
 IMEN---------------------------------------------------: EURASIAN MOORHEN
 ----JO-------------------------------------------------: STEJNEGER'S SCOTER

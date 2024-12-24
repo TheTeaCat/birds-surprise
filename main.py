@@ -2,7 +2,7 @@ with open("birds.csv") as f:
     bird_names = list(map(lambda bird_name: bird_name.upper(), f.read().split("\n")))
 
 DEFAULT_TARGET_MESSAGE = (
-    "I'm enjoying looking at all the bird pictures, but i will post it soon"
+    "I'm enjoying looking at all the bird pictures, but I will post it soon."
 )
 
 target_message = (
