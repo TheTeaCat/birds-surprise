@@ -61,7 +61,7 @@ setTimeout(()=>{
 
 You then need to focus on the webpage within 3 seconds so the `navigator.clipboard.writeText` call doesn't fail.
 
-This will put a list of all the birds' names in your clipboard, which can then be pasted into the [`birds.csv`](./birds.csv) file. As of 24/12/2024 there should be 420 of them.
+This will put a list of all the birds' names in your clipboard, which can then be pasted into the [`birds.csv`](./birds.csv) file. As of 24/12/2024 there should be 420 of them. Included in this repository is [a list generated on 24/12/2024](./birds.csv), which is licensed under [CC By-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) as it is derived from the content of a Wikipedia page.
 
 **NOTE:** If you're providing your own different list of words, you need to ensure every letter that you want to use in your hidden message appears in at least one of your words; otherwise it will not be possible to encode your message.
 
