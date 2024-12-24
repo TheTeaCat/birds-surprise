@@ -63,6 +63,8 @@ You then need to focus on the webpage within 3 seconds so the `navigator.clipboa
 
 This will put a list of all the birds' names in your clipboard, which can then be pasted into the [`birds.csv`](./birds.csv) file. As of 24/12/2024 there should be 420 of them.
 
+**NOTE:** If you're providing your own different list of words, you need to ensure every letter that you want to use in your hidden message appears in at least one of your words; otherwise it will not be possible to encode your message.
+
 Now you have a dataset of bird names, you can run my terrible Python code:
 
 ```bash
