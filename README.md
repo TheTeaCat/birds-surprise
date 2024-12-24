@@ -14,7 +14,7 @@ git clone git@github.com/theteacat/birds-surprise
 cd birds-surprise
 ```
 
-Next, extract all of the bird names from [Wikipedia's Spanish Birds page](https://en.wikipedia.org/wiki/List_of_birds_of_Spain#Ducks,_geese,_and_waterfowl) running the following javascript snippet in the developer tools of your browser:
+Next, extract all of the bird names from [Wikipedia's Spanish Birds page](https://en.wikipedia.org/wiki/List_of_birds_of_Spain#Ducks,_geese,_and_waterfowl) by running the following javascript snippet in the developer tools of your browser:
 
 ```javascript
 let tmpInput = document.createElement("textarea")
@@ -40,15 +40,15 @@ setTimeout(()=>{
 
 You then need to focus on the webpage within 3 seconds so the `navigator.clipboard.writeText` call doesn't fail.
 
-This will put a list of all the birds in your clipboard, which can then be pasted into the [`birds.csv`](./birds.csv) file.
+This will put a list of all the birds' names in your clipboard, which can then be pasted into the [`birds.csv`](./birds.csv) file. As of 24/12/2024 there should be 420 of them.
 
-Now you have a dataset of bird names, you can run my terrible python code:
+Now you have a dataset of bird names, you can run my terrible Python code:
 
 ```bash
 python3 main.py
 ```
 
-This will ask you for a target message. If you don't have one in mind yet, there is a default.
+My terrible Python code will ask you for a target message. If you don't have one in mind yet, there is a default.
 
 
 
