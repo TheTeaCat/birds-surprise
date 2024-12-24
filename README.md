@@ -93,3 +93,23 @@ IMEN---------------------------------------------------: EURASIAN MOORHEN
 Total birds required: 12
 Average letters per bird: 4.583333333333333
 ```
+
+
+
+## Example Illustrations
+
+| Illustration                                                 | Text                                                         | Hidden Text |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| ![A terrible illustration of Iris titled "IRIS' BIRD HUNT"](images/intro_illustration.jpeg)                | ![Handwritten text reading "HELLO IT'S IRIS I HID SOME (TWELVE) BIRDS IN YOUR HOUSE FOR YOU TO HUNT AND ALSO THEY HAVE A SECRET MESSAGE ABOUT YOUR BIRD BOOK. GOOD LUCK!"](images/intro_text.jpeg)                        |             |
+| ![A terrible illustration of a Eurasian Moorhen](images/bird_01_illustration.jpeg) | ![Handwritten text reading "EURASIAN MOORHEN 1"](images/bird_01_text.jpeg) | IMEN        |
+| ![A terrible illustration of a Stejneger's Scoter](images/bird_02_illustration.jpeg) | ![Handwritten text reading "STEJNEGER'S SCOTER 2"](images/bird_02_text.jpeg) | JO          |
+| ![A terrible illustration of an Egyptian Goose](images/bird_03_illustration.jpeg) | ![Handwritten text reading "EGYPTIAN GOOSE 3"](images/bird_03_text.jpeg) | YING        |
+| ![A terrible illustration of a Lesser Short-Toed Lark](images/bird_04_illustration.jpeg) | ![Handwritten text reading "LESSER SHORT-TOED LARK 4"](images/bird_04_text.jpeg) | LOOK        |
+| ![A terrible illustration of a Mourning Wheatear](images/bird_05_illustration.jpeg) | ![Handwritten text reading "MOURNING WHEATEAR 5"](images/bird_05_text.jpeg) | INGATA      |
+| ![A terrible illustration of an Atlas Flycatcher](images/bird_06_illustration.jpeg) | ![Handwritten text reading "ATLAS FLYCATCHER 6"](images/bird_06_text.jpeg) | LLTHE       |
+| ![A terrible illustration of a Baird's Sandpiper](images/bird_07_illustration.jpeg) | ![Handwritten text reading "BAIRD'S SANDPIPER 7"](images/bird_07_text.jpeg) | BIRDPI      |
+| ![A terrible illustration of a Cinerous Vulture](images/bird_08_illustration.jpeg) | ![Handwritten text reading "CINEREOUS VULTURE 8"](images/bird_08_text.jpeg) | CTURE       |
+| ![A terrible illustration of a House Bunting](images/bird_09_illustration.jpeg) | ![Handwritten text reading "HOUSE BUNTING 9"](images/bird_09_text.jpeg) | SBUTI       |
+| ![A terrible illustration of a Wilson's Phalarope](images/bird_10_illustration.jpeg) | ![Handwritten text reading "WILSON'S PHALAROPE 10"](images/bird_10_text.jpeg) | WILLP       |
+| ![A terrible illustration of a Rufous-Tailed Rock-Thrush](images/bird_11_illustration.jpeg) | ![Handwritten text reading "RUFOUS-TAILED ROCK-THRUSH 11"](images/bird_11_text.jpeg) | OSTITS      |
+| ![A terrible illustration of a Sooty Tern](images/bird_12_illustration.jpeg) | ![Handwritten text reading "SOOTY TERN 12"](images/bird_12_text.jpeg) | OON         |
