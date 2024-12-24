@@ -4,6 +4,27 @@ This repository documents the steps I took to generate a list of birds I could u
 
 
 
+## Backstory
+
+For Christmas 2024 I purchased a book of Spanish birds as a gift. I was also required to create some kind of puzzle or prank for the recipient of the gift. I decided to draw several Spanish birds terribly in crayon and hide them around the recipient's home, and their task was to find them and then deduce a secret message from the birds' names.
+
+The secret message was encoded by writing a subset of the bird names' letters backwards - or in a different colour if the letter was symmetrical - such that if all the backwards and coloured letters were read in sequence they would form a secret message.
+
+For example, to encode the message "HELLOWORLD", one may use the following bird names:
+
+- **HE**RRING GU**LL**
+- YELL**OW**-BR**O**WED WA**R**B**L**ER
+- **D**UNLIN
+
+Why write the letters backwards? Because the gift was actually from my pet cat Iris, of course - this explains why the illustrations are so terrible, and as we all know when cats are tasked with writing English text they often erroneously transcribe letters backwards. Here she is, reviewing the terrible JavaScript and Python code I wrote:
+
+![My pet cat, Iris](images/iris.jpeg)
+
+The book didn't arrive in time to be given on Christmas, so the secret message ~~I~~ Iris encoded in these bird names was:
+
+> I'm enjoying looking at all the bird pictures, but I will post it soon.
+
+
 
 ## Instructions
 
